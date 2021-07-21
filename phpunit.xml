@@ -1,7 +1,7 @@
 <phpunit
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.6/phpunit.xsd"
-    bootstrap="/var/www/vendor/weitzman/drupal-test-traits/src/bootstrap.php"
+    bootstrap="/Users/thierry.dallacroce/Code/dkan/vendor/weitzman/drupal-test-traits/src/bootstrap.php"
     colors="true"
     stopOnFailure="false"
     stopOnError="false"
@@ -59,8 +59,8 @@
     <php>
         <!-- These variables may alternatively be set as environment variables. -->
         <!-- E.g., `DRUPAL_VERSION=V8 ./vendor/bin/phpunit` -->
-        <env name="DRUPAL_ROOT" value="/var/www/docroot"/>
-        <env name="DTT_BASE_URL" value="http://web"/>
+        <env name="DRUPAL_ROOT" value="/Users/thierry.dallacroce/Code/dkan/docroot"/>
+        <env name="DTT_BASE_URL" value="http://dkan.localtest.me"/>
         <env name="SIMPLETEST_BASE_URL" value="http://web"/>
         <env name="SIMPLETEST_DB" value="mysql://drupal:123@db/drupal"/>
     </php>
